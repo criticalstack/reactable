@@ -37,8 +37,6 @@ export class Table extends React.Component {
     translateColumnsArray(columns) {
         return columns.map(function(column, i) {
             if (typeof(column) === 'string') {
-                console.log("test--", column);
-
                 return {
                     key:   column,
                     label: column
@@ -350,8 +348,6 @@ export class Table extends React.Component {
                         // Update the columns array with the data's keys if columns were not
                         // already specified
                         if (userColumnsSpecified === false) {
-
-                          console.log("test--", column);
 
                             let column = {
                                 key:   k,

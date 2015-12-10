@@ -1018,8 +1018,6 @@ window.ReactDOM["default"] = window.ReactDOM;
             value: function translateColumnsArray(columns) {
                 return columns.map((function (column, i) {
                     if (typeof column === 'string') {
-                        console.log("test--", column);
-
                         return {
                             key: column,
                             label: column
@@ -1330,8 +1328,6 @@ window.ReactDOM["default"] = window.ReactDOM;
                                 // already specified
                                 if (userColumnsSpecified === false) {
                                     (function () {
-
-                                        console.log("test--", column);
 
                                         var column = {
                                             key: k,
